@@ -1,8 +1,11 @@
 package com.rest.dataobjects;
 
+import java.util.List;
+
 public class Member {
 	private String name;
 	private int age;
+	private List<Account> accounts;
 
 	public Member(String name, int age) {
 		this.name = name;
@@ -28,5 +31,13 @@ public class Member {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public List<Account> getAccounts() {
+		return accounts;
+	}
+
+	public void setAccounts(List<Account> accounts) {
+		this.accounts = accounts;
 	}
 }
