@@ -11,7 +11,7 @@ public class MemberDAO {
 	public static Member getMembers() {
 		Member mem1 = new Member("Nitish", 30);
 		Account acct1 = new Account("11111", "BofaChk", mem1.getName());
-		Account acct2 = new Account("22222", "Discover", mem1.getName());
+		Account acct2 = new Account("22222", "Discovercrd", mem1.getName());
 		List<Account> accounts = new ArrayList<>();
 		accounts.add(acct2);
 		accounts.add(acct1);
