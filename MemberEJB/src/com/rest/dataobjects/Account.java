@@ -1,5 +1,5 @@
 package com.rest.dataobjects;
-//
+// account class
 public class Account {
 	private String acctNum;
 	private String acctNickName;
