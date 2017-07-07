@@ -5,6 +5,7 @@ import java.util.List;
 public class Member {
 	private String name;
 	private int age;
+	private String address;
 	private List<Account> accounts;
 
 	public Member(String name, int age) {
